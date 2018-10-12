@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>Laravel</title>
+        <link rel="shortcut icon" href="ico_black.ico" type="image/x-icon"></link>
+        <title>TimePlan</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -62,6 +62,7 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+            
         </style>
     </head>
     <body>
@@ -79,7 +80,8 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Loh, Andrey
+                    <img src="logo_black.png">
+                    
                 </div>
 
                 <div class="links">
