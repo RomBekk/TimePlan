@@ -80,13 +80,8 @@
 
             <div class="content">
                 <div class="title m-b-md">
-<<<<<<< HEAD
-                    Time Plan <br>
-                    Best planner in the World!!!
-=======
                     <img src="logo_black.png">
                     
->>>>>>> ab35d93cfa9fe20af66604856d866e68fa00c4a3
                 </div>
 
                 <div class="links">

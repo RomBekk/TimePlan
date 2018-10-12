@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="shortcut icon" href="ico_black.ico" type="image/x-icon"></link>
-        <title>TimePlan</title>
+
+        <title>Laravel</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -62,7 +62,6 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
-            
         </style>
     </head>
     <body>
@@ -80,13 +79,8 @@
 
             <div class="content">
                 <div class="title m-b-md">
-<<<<<<< HEAD
                     Time Plan <br>
                     Best planner in the World!!!
-=======
-                    <img src="logo_black.png">
-                    
->>>>>>> ab35d93cfa9fe20af66604856d866e68fa00c4a3
                 </div>
 
                 <div class="links">
