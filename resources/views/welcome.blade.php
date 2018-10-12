@@ -79,7 +79,8 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Loh, Andrey
+                    Time Plan <br>
+                    Best planner in the World!!!
                 </div>
 
                 <div class="links">
