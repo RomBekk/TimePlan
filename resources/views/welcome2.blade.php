@@ -17,32 +17,35 @@
     <body>
         <div class="container-fluid ">
             <div class="row" >
-                 <div class="col-sm-8">
+                 <div class="col-auto">
                       
                 <img src="logo_black2.png" width="50%" > 
                 </div>
-            <div class="col-8">
+
+        <div class="flex-center position-ref full-height">
+                
                     @if (Route::has('login'))
-                     <div>
-                    
+                    <div class="top-right links"> 
                         <a href="{{ url('/home') }}">Home</a>
-                    
+                        <a href="/TimePlan">Let's start!</a> 
                     @else
                     
-                        <a href="">Login</a>
-                        <a href="">Register</a>
-
+                    
+                    <a href="/TimePlan">Let's start!</a> 
+                    <a href="">Download</a>
+                    <a href="">Login</a>
+                    <a href="">Register</a>
                 
-                    </div> 
-                     @endif
+                    </div>
+                     @endif  
+                     </div>
             </div>
         </div>
     </div>
         
         
         <hr style="height:10px">
-           
-            <a href="/TimePlan">Let's start!</a>            
+                  
         
     </body>
 </html>
