@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/2', function () {
+    return view('welcome2');
+});
+
 Route::get('/TimePlan', function () {
     return view('TimePlan');
 });

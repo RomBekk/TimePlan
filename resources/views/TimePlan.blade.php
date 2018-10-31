@@ -13,7 +13,7 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: black;
+                background-color: #fff;
                 color: #636b6f;
                 font-family: 'Raleway', sans-serif;
                 font-weight: 100;
@@ -68,6 +68,7 @@
     <body>
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
+            
                 <div class="top-right links">
                     @auth
                         <a href="{{ url('/home') }}">Home</a>
@@ -75,27 +76,40 @@
                         <a href="{{ route('login') }}">Login</a>
                         <a href="{{ route('register') }}">Register</a>
                     @endauth
-                
-                </div> 
-            @endif
-            <div>
-                    <img src="logo_black2.png" width="50%" style="background:white">
                 </div>
+            
+            @endif
 
             <div class="content">
                 <div class="title m-b-md">
                     
                 </div>
-                
+                <div>
+                    <img src="logo_black2.png" width="100%">
+                </div>
                 <div class="links">
                     <a href="/TimePlan">Let's start!</a>
-                    
+                    <a href="https://laracasts.com">Laracasts</a>
+                    <a href="https://laravel-news.com">News</a>
+                    <a href="https://forge.laravel.com">Forge</a>
+                    <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
 
             </div>
-
             
         </div>
-
+        <div class="container">
+            <div class="row">
+                 <div class="col-sm">
+                      One of three columns
+                </div>
+                <div class="col-sm">
+                      One of three columns
+                </div>
+                 <div class="col-sm">
+                       One of three columns
+                 </div>
+                </div>
+        </div>
     </body>
 </html>
